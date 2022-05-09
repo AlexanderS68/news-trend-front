@@ -1,0 +1,128 @@
+.stock-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(120, 211, 67);
+}
+
+.stock-search {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
+}
+
+.stock-text {
+  margin-bottom: 32px;
+}
+
+.stock-input {
+  padding-left: 16px;
+  font-size: large;
+  width: 300px;
+  height: 50px;
+  background: linear-gradient(to right, #14163c 0%, #03217b 79%);
+  color:white;
+}
+
+.stock-input::placeholder{
+  color: white;
+  font-size: large;
+}
+
+.hidden{
+  display: none;
+}
+
+/* Blog CSS */
+
+.input-parent {
+  display: flex;
+  margin: 10px 60px 10px 30px;
+  padding: 20px 50px 50px 80px;
+
+}
+
+.blog-text {
+  padding-left: 200px;
+  margin-bottom: 20px;
+  border-bottom: 2px black solid;
+}
+
+.title-input {
+  height: 25px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  padding-right: 50px;
+  
+}
+
+.tag-input {
+  height: 25px;
+  margin-left: 12px;
+  border-radius: 4px;
+  padding-right: 50px;
+}
+
+.content-input {
+  height: 100px;
+  width: 500px;
+  border-radius: 4px;
+  
+}
+
+.temp-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-parent {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.blog-submit {
+  margin-left: 400px;
+  margin-top: 8px;
+  box-shadow: #333 4px 4px 4px;
+}
+
+
+/* Portfolio CSS */
+.stock-search {
+  display: flex;
+}
+
+.stock-text-p {
+  font-size: 35px;
+}
+
+.renderArticle {
+  font-size: 10px;
+}
+
+
+
+img{
+  border-radius: 8px;
+  width: 55px;
+  margin-right: 20px;
+  z-index: 50;
+}
+
+.parentTwo {
+  border-radius: 4px;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+/* Coin CSS */
+
+.cryptoHeader {
+  margin-left: 40px;
+  border-bottom: 2px solid #333;
+}
