@@ -7,4 +7,4 @@ Application for retail investors to gather news semantics on a variety of market
  
  Server is at https://github.com/AlexanderS68/news-trend-back
  
- https://www.youtube.com/watch?v=K45pYTp85R0&t=539s
+ https://www.youtube.com/watch?v=K45pYTp85R0
